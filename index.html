@@ -31,13 +31,15 @@ document.querySelector('#display').value=currentvalue;">C</button></div>
         <div><button class="toedit" onclick="currentvalue=currentvalue+'/'; document.querySelector('#display').value=currentvalue;">/</button></div>
         <div><button class="toedit" onclick="currentvalue=currentvalue+'*'; document.querySelector('#display').value=currentvalue;">*</button></div>
         <div><button class="toedit" onclick="currentvalue=currentvalue+'.'; document.querySelector('#display').value=currentvalue;">.</button></div>
-
+        <div><button class="toedit" onclick="currentvalue=currentvalue+'0'; document.querySelector('#display').value=currentvalue;">0</button></div>
+    
         
         <div><button class="toedit" onclick="
         let result=eval(currentvalue); 
         currentvalue=result;
         document.querySelector('#display').value=currentvalue;">=</button></div>
-    </div>
+
+
     </div>
 </main>
 
